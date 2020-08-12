@@ -44,11 +44,12 @@ use Drupal\link\LinkItemInterface;
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
  *     "views_data" = "Drupal\views\EntityViewsData",
  *     "translation" = "Drupal\content_translation\ContentTranslationHandler",
- *     "access" = "Drupal\apigee_api_catalog\Entity\Access\ApiDocAccessControlHandler",
  *     "route_provider" = {
  *       "html" = "Drupal\apigee_api_catalog\Entity\Routing\ApiDocHtmlRouteProvider",
  *       "revision" = "Drupal\entity\Routing\RevisionRouteProvider",
  *     },
+ *     "access" = "Drupal\Core\Entity\EntityAccessControlHandler",
+ *     "permission_provider" = "Drupal\Core\Entity\EntityPermissionProvider",
  *   },
  *   base_table = "apidoc",
  *   data_table = "apidoc_field_data",
